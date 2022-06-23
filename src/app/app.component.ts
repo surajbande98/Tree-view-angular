@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SampleData } from 'src/assets/sample.model';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'tree-view';
+  sampleData = SampleData.data;
 }
